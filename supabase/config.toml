@@ -1,0 +1,5 @@
+# Supabase CLI project config. Marks this folder as a Supabase project so the
+# CLI and MCP find `supabase/migrations`. We never run a local stack
+# (CLAUDE.md, Database rules): migrations are tested on PGlite
+# (packages/db/supabase-pglite.ts) and applied to the dev project via the MCP.
+project_id = "askwell"
