@@ -8,12 +8,19 @@
     ".": {
       "types": "./types.ts",
       "default": "./types.ts"
+    },
+    "./pglite": {
+      "types": "./supabase-pglite.ts",
+      "default": "./supabase-pglite.ts"
     }
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
+    "@electric-sql/pglite": "0.5.15",
+    "@electric-sql/pglite-pgvector": "0.0.16",
+    "@types/node": "24.19.2",
     "typescript": "6.0.3"
   }
 }
